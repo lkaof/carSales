@@ -7,8 +7,10 @@
                 <div style="text-align: center;">{{ accessory.accessoryCost }}</div>
             </button>
         </div>
+        <div class="btn btn-default btn-block"> Subtotal --> {{ selectedColorAndModel.modelCost + selectedColorAndModel.colorCost }}</div>
         <div style="background-color: #054086;" class="btn btn-success" (click)="finishSelection()" role="button">
             tamamla
         </div>
+        
     </ul>
 </div>
