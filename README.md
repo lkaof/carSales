@@ -33,7 +33,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 1- Daha önce hiç frameworkler ile çalışmadığım için, daha rahat uygulamaya dökebileceğimi düşünerek VUE js öğrenmeye başladım.
 
-2- Sayfalar arası geçiş için route işlemi uyguladım. Ayrı ayrı sayfaları oluşturmaya başladım.
+2- Sayfalar arası geçiş için route işlemi uyguladım. Ayrı ayrı sayfaları oluşturmaya başladım. Vue instance'lar ile datalar, methodlar ve computed işlemleri tanımladım.
 
 3- VUE Route işlemi sırasında template kısmında yaşadığım sorun sebebiyle sayfaları external olarak import edemedim ve single file component dışında bir çözüm bulamadım.
 
