@@ -1,0 +1,15 @@
+<div id="accessoryList" class="container">
+    <ul>
+        <div class="row">
+            <li class="col-md-4 col-sm-6 col-12 btn" (click)="accessorySelect(accessory)"
+                *ngFor="let accessory of accessories">
+                <div style="text-align: center;">{{ accessory.accessoryName }}</div>
+                <div style="text-align: center;">{{ accessory.accessoryCost }}</div>
+                <hr />
+            </li>
+        </div>
+        <div style="background-color: #054086;" class="btn btn-success" (click)="finishSelection()">
+            tamamla
+        </div>
+    </ul>
+</div>

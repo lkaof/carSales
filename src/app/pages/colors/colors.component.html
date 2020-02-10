@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="row">
+        <div id="selectedModel" class="col-12 text-center">
+            <img src="{{ selectedModel.modelImgSrc }}" />
+        </div>
+        <div id="colorList" class="col-12">
+            <ul>
+                <div *ngFor="let color of colors">
+                    <li>
+                        <div style="text-align: center;"></div>
+                        <div style="width: 100%" class="btn btn-primary" (click)="colorSelect(color)">
+                            {{ color.colorName }} -- {{ color.colorCost }}</div>
+                        <hr />
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </div>
+</div>

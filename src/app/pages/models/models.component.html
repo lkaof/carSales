@@ -1,0 +1,16 @@
+<div id="modelList" class="container">
+    <ul>
+        <div class="row">
+            <li class="col-md-4 col-sm-6 col-12 btn btn-default" (click)="modelSelect(model)"
+                *ngFor="let model of models">
+                <img width="auto" height="150" src="{{ model.modelImgSrc }}" />
+                <div style="text-align: center;">{{ model.modelName }}</div>
+                <div style="text-align: center;">
+                    {{ model.modelCost }} TL'den başlayan fiyatlar
+                </div>
+                <!-- <button v-on:click="selectCar(index)">Select</button> -->
+                <hr />
+            </li>
+        </div>
+    </ul>
+</div>

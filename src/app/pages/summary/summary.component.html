@@ -1,0 +1,25 @@
+<div id="summaryList" class="container">
+    <div class="row">
+        <img class="col-6" width="auto" height="300" src="{{ selectedSummary.modelImgSrc }}" />
+        <div class="col-6">
+            <div><b>Model Name</b></div>
+            <div>{{ selectedSummary.modelName }}</div>
+            <hr />
+
+            <div><b>Color</b></div>
+            <div>{{ selectedSummary.colorName }}</div>
+            <hr />
+
+            <div><b>Accessories</b></div>
+            <ul>
+                <li *ngFor="let accessory of selectedAccs">{{ accessory.accessoryName }}</li>
+            </ul>
+            <hr />
+
+            <div><b>Total Cost</b></div>
+            <div>{{ totalCost }}</div>
+
+
+        </div>
+    </div>
+</div>
